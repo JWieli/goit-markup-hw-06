@@ -98,11 +98,17 @@
                 <label class="label">Komentarz</label>
                 <textarea class="input-content"  rows="4" name="text" placeholder="Wprowadź tekst"></textarea>
               </fieldset>
+
+              <!-- jak to zrobićććć?????/ -->
+              <label class="label-terms">Oświadczam iż akceptuję <span class="terms" href="#">Regulamin</span> i <span class="terms" href="#">Politykę Prywatności.</span> </label>
               <input class="checkbox" type="checkbox" name="Terms" required/>
-                <label class="label-terms">Oświadczam iż akceptuję <a class="terms" href="#">Regulamin</a> i <a class="terms" href="#">Politykę Prywatności.</a> </label>
+                <svg class="checkbox-icon">
+                  <use xlink href="./images/icons.svg#icon-checkbox"></use>
+                </svg>
+              
                 
                 <div class="button-place button-margin">
-                  <button type="button" class="button-order">
+                  <button type="sumbit" class="button-order">
                     <span>Wyślij</span>
                   </button>
             </div>
@@ -445,6 +451,20 @@
             </li>
           </ul>
         </div>
+          <form class="subscription">
+            <label class="subscription-header">ZAPISZ SIĘ DO NEWSLETTERA
+              </label>
+              <div class="subscription-form">
+              <input class="subscription-input" type="email" name="newsletter-email" placeholder="E-mail" />
+              <div class="button-place">
+                <button type="submit" class="subscription-button">
+                  <span class="subscription-button-text">Zapisz się
+                  <svg class="subscription-icon">
+                    <use xlink href="./images/icons.svg#send-icon"></use>
+                  </svg></span>
+                </div>
+                </button>
+            </form>
     </footer>
     <script src="./js/modal.js"></script>
   </body>
