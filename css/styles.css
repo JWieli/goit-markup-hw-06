@@ -868,13 +868,16 @@ h3 {
 
 .fieldset:hover {
   border-color: var(--blue);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .last-fieldset:hover {
   border-color: var(--blue);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .fieldset:hover .modal-icons {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: var(--blue);
 }
 .checkbox {
@@ -922,6 +925,7 @@ h3 {
 .subscription-input:hover {
   border-color: var(--blue);
   outline-style: none;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .subscription-icon {
