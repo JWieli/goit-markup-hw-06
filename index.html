@@ -67,6 +67,43 @@
           </button>
           <div class="backdrop is-hidden" data-modal>
             <div class="modal">
+              <div class="modal-content">
+              <p class="modal-title">Zostaw swoje dane w formularzu poniżej</p>
+              <fieldset class="fieldset">
+                <label class="label">Imię</label>
+                <svg class="modal-icons">
+                <use xlink href="./images/icons.svg#modal-person-icon">
+                </use>
+              </svg>
+                <input class="input-content" type="name" name="name"/>
+              </fieldset>
+              <fieldset class="fieldset">
+                <label class="label">Telefon</label>
+                <svg class="modal-icons">
+                  <use xlink href="./images/icons.svg#modal-phone-icon">
+                  </use>
+                </svg>
+                <input class="input-content" type="phone" name="phone"/>
+              </fieldset>
+              <fieldset class="fieldset">
+                <label class="label">Email</label>
+                <svg class="modal-icons">
+                  <use xlink href="./images/icons.svg#modal-email-icon">
+                  </use>
+                </svg>
+                <input class="input-content"  type="email" name="email"/>
+              </fieldset>
+              <fieldset class="fieldset">
+                <label class="label">Komentarz</label>
+                <textarea class="input-content"  type="textarea" rows="7" name="text" placeholder="Wprowadź tekst"/>
+              </fieldset>
+                <label class="label-terms">Oświadczam iż akceptuję <a class="terms" href="#">Regulamin</a> i <a class="terms" href="#">Politykę Prywatności.</a> </label>
+                <input type="checkbox" name="Terms" required/>
+                <div class="button-place">
+                  <button type="button" class="button-order">
+                    <span>Wyślij</span>
+                  </button>
+            </div>
               <div class="border-close-button">
             <button class="close-button center-content" data-modal-close>
               <svg class="close-button-icon"               width="18"

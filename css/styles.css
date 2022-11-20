@@ -771,3 +771,66 @@ h3 {
   justify-content: center;
   align-items: center;
 }
+
+.modal-content {
+  margin: 40px;
+}
+
+.modal-title {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.fieldset {
+  display: flex;
+  position: relative;
+  margin: 28px;
+  border-radius: 4px;
+  height: 40px;
+}
+
+.label {
+  position: absolute;
+  top: -18px;
+  left: 0px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  color: var(--silver);
+}
+
+.input-content {
+  padding: 0;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border: transparent;
+  width: 100%;
+}
+
+.label-terms {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--silver);
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.terms {
+  color: var(--blue);
+  text-decoration: underline;
+}
+
+.modal-icons {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
