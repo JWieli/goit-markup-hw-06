@@ -885,6 +885,30 @@ h3 {
   margin-left: 17px;
 }
 
+.checkbox-icon {
+  width: 17px;
+  height: 15px;
+  position: absolute;
+  fill: blue;
+  color: blue;
+  left: -26px;
+  top: 2px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.checkbox-layout {
+  position: relative;
+  cursor: pointer;
+}
+
+.checkbox:checked + span svg {
+  background-color: rgba(33, 150, 243, 1);
+}
+
+.checkbox-icon:hover svg {
+  visibility: 0%;
+}
+
 .subscription {
   width: 570px;
   height: 86px;
