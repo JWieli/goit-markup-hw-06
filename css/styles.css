@@ -894,19 +894,19 @@ h3 {
   height: 0px;
   opacity: 0;
   cursor: pointer;
-  left: 14px;
 }
 
 .checkbox-svg {
   position: absolute;
-  width: 18px;
-  height: 18px;
-  border: 1px solid (--silver);
+  width: 16px;
+  height: 16px;
   border-radius: 2px;
   display: block;
   transition: opacity 0.2s;
   opacity: 0;
-  left: 54px;
+  left: 10px;
+  top: 2px;
+  border: 1px solid var(--silver);
 }
 
 .checkbox-icon {
@@ -920,7 +920,7 @@ h3 {
 
 .checkbox-input:checked ~ .checkbox-svg {
   opacity: 1;
-  background-color: black;
+  border: 1px solid var(--silver);
 }
 
 .subscription {
