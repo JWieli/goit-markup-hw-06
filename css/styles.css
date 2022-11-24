@@ -21,6 +21,8 @@ body {
 
 header {
   height: 80px;
+  display: flex;
+  align-items: center;
   border-bottom: 1px solid rgba(236, 236, 236, 1);
 }
 .Webstudio-header-blue {
@@ -106,7 +108,7 @@ menu {
   display: flex;
   padding: 32px 0;
   line-height: 1.17;
-  width: 321px;
+  margin: 0;
   gap: 30px;
   flex-direction: row;
 }
@@ -564,7 +566,7 @@ h3 {
 .portfolio-all {
   width: 370px;
   height: 404px;
-  background-color: var(--second-white);
+  background-color: var(--main-white);
   border: 1px solid rgba(238, 238, 238, 1);
   margin: 0 auto;
 }
@@ -956,6 +958,7 @@ h3 {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
+  padding-left: 16px;
 }
 
 .subscription-input:hover {
