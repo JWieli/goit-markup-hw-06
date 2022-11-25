@@ -25,35 +25,30 @@ header {
   align-items: center;
   border-bottom: 1px solid rgba(236, 236, 236, 1);
 }
-.Webstudio-header-blue {
-  font-weight: bold;
+
+.page-name {
+  padding: 24px 93px 25px 0px;
   width: 145px;
   height: 31px;
-  font-weight: 700;
-  font-family: "Raleway", sans-serif;
-  font-size: 26px;
-  text-decoration: none;
-  line-height: 1.17;
-  color: var(--blue);
-  padding: 25px 0;
-}
-.Webstudio-header {
-  font-weight: bold;
-  color: var(--black);
-  width: 145px;
-  font-weight: 700;
-  height: 31px;
-  font-family: "Raleway", sans-serif;
-  font-size: 26px;
-  text-decoration: none;
-  line-height: 1.17;
-  padding: 25px 0;
 }
 
-.main-header {
-  width: 145px;
-  height: 31px;
-  padding: 24px 93px 25px 0px;
+.page-name__title {
+  font-weight: bold;
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+  line-height: 1.17;
+  font-family: "Raleway", sans-serif;
+}
+.page-name__title--blue {
+  color: var(--blue);
+}
+.page-name__title--black {
+  color: var(--black);
+}
+
+.page-name__title--white {
+  color:var(--main-white);
 }
 
 .header-list1 {
